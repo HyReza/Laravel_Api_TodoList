@@ -181,9 +181,9 @@ class TodoController extends Controller
             ], 404);
         } else {
             $request->validate([
-                'title' => 'required|min:3|max:255',
-                'description' => 'required|min:3|max:255',
-                'completed' => 'required|in:0,1',
+                'title' => 'min:3|max:255',
+                'description' => 'min:3|max:255',
+                'completed' => 'in:0,1',
             ]);
 
             try {

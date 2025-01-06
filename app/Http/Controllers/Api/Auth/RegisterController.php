@@ -11,9 +11,13 @@ use App\Http\Resources\UserResource;
  * @OA\Info(
  *     version="1.0.0",
  *     title="Auth API Documentation",
- *     description="API documentation for authentication",
+ *     description="API documentation for authentication.
+  Developed by:
+ *  **Reza Edi Saputra** (202203040041) - rezaedisaputra2@gmail.com
+ *  **Urfi Nurwahidah** (202203040015)
+ *  **Lia Khoirun Nisa'** (202203040029)",
  *     @OA\Contact(
- *         email="support@example.com"
+ *         email="rezaedisaputra2@gmail.com"
  *     )
  * )
  */
